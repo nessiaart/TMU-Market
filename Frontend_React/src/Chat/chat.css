@@ -1,0 +1,159 @@
+#root {
+  height: 100vh;
+}
+
+.icon{
+  color: #fff;
+}
+
+body,html{
+  background-color: #DBDBDB; 
+  color: #034b8f;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+  text-align: left;
+  
+}
+
+
+.chat-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  padding-top: none;
+  overflow: auto;
+  height: 78vh;
+
+  @media screen and (max-width: 768px) {
+    height: 70vh;
+  }
+  
+}
+
+.own{
+  border-radius: 25px;
+  align-self: flex-end;
+  padding: 0.7rem;
+  background-color: #ffba42;
+  width: fit-content;
+  display: block;
+  text-align: left;
+}
+
+.message{
+  padding: 0.7rem;
+  width: fit-content;
+  border-radius: 25px;
+  display: block;
+  margin: 10px;
+  background-color: #BBBBBB;
+  text-align: left;
+}
+
+.heading {
+  background-color: #034b8f;
+  justify-content: speace-between;
+  align-items: left;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.profile {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid white;
+  transition: transform 0.3s ease; 
+}
+
+.profile:hover {
+  transform: scale(1.1);
+}
+
+.name{
+  font-size: 1rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.status{
+  display: block;
+  /* vertical-align: middle; */
+}
+
+.contact-block{
+  background-color: #ffba42;
+  color: black;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.online-dot {
+  background-color: greenyellow;
+  border-radius: 50%;
+  left: 2rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+
+
+.button1{
+background-color:#ffba42;
+}
+
+.button1:hover{
+transition: all 0.3s ease;
+background-color: #BBBBBB;
+cursor: pointer;
+transform: translateX(5px);
+border-left: 4px solid #0E99A5;
+}
+
+.chat{
+  background-image: url("sommie3.png");
+  height: 94.5vh;
+}
+
+.contacts{
+  background-color:#023267;
+  overflow-y: auto;
+}
+
+@media (max-width: 640px) {
+  .button1:hover {
+    transition: all 0.3s ease;
+    background-color: #0E99A5; 
+    transform: none; 
+    border-left: none; 
+  }
+}
+
+
+.tapChat{
+  animation: hoverAnimation 1s ease infinite;
+}
+
+@keyframes hoverAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+

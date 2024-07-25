@@ -1,0 +1,28 @@
+
+.cdiv{
+    
+  
+    background-color: white;
+   
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #03468F; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4275f5; 
+  }
+  
+  button:focus {
+    outline: none;
+  }

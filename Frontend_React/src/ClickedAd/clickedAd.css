@@ -1,0 +1,124 @@
+body,html{
+  background-color: #DBDBDB; 
+  color: #034b8f;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.button1{
+    background-color:#ffba42;
+}
+
+.button1:hover{
+    transition: all 0.3s ease;
+    background-color: #BBBBBB;
+    cursor: pointer;
+    transform: translateX(5px);
+    border-left: 4px solid #0E99A5;
+  }
+
+  .product-name-container {
+    position: relative;
+  }
+  
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #0E99A5;
+    opacity: 0; 
+    animation: underlineAnimation 1s ease-in forwards; 
+  }
+  
+  @keyframes underlineAnimation {
+    from {
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+  
+  .trivia-questions {
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#ffba42;
+  }
+  
+  .trivia-questions h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .trivia-questions p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .answer-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .answer-options button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .answer-options button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .answer-result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .map-container {
+    height: 400px;
+    width: 100%; 
+  }
+
+  .mapText{
+    animation: hoverAnimation 1s ease infinite;
+  }
+  
+  @keyframes hoverAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

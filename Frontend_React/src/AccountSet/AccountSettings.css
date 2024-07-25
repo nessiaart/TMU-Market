@@ -1,0 +1,37 @@
+.section.account-settings {
+  padding: 20px;
+  margin-top: 20px;
+  min-height: auto;
+}
+
+.section-heading {
+  background-color: #034b8f;
+  color: #fff;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+
+.settings-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.settings-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #034b8f;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.settings-item:hover {
+  background-color: #e1e1e1;
+}
+
+.settings-item:last-child {
+  border-bottom: none;
+}

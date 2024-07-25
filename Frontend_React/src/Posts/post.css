@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #fff; 
+    color: #034b8f;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .section {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+
+  .section-heading {
+    background-color: #034b8f; 
+    color: #fff; 
+    padding: 20px;
+    margin: -40px -20px 20px -20px; 
+    border-radius: 0; 
+  }
+  
+
+  .post-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .post-form .form-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-form .form-input, .post-form .form-textarea {
+    width: calc(100% - 16px); 
+    padding: 12px 8px;
+    margin-bottom: 16px;
+    border: 2px solid #034b8f;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-submit-button {
+    background-color: #034b8f; 
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .form-submit-button:hover {
+    background-color: #FFBA42;
+    color: black;
+  }
+  
+
+  .post-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  
+  .post-item {
+    background-color: #fff;
+    border: 1px solid #034b8f;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .post-item:hover {
+    background-color: pink;
+    
+   
+  }
+  
+  
+  @media (max-width: 768px) {
+    .section {
+      padding: 20px;
+    }
+  
+    .section-heading {
+      margin: -20px -20px 20px -20px;
+    }
+  }
+  
+  .post-details{
+    width: 100%;
+    text-align: center;
+  }
+
+  
+ul.post-list li {
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  transition: all 0.3s 
+  
+}
+
+
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+
+
+
+.post-details:hover {
+  color: purple;
+}
+
+li.post {
+  flex: 0 0 33.33%; 
+  margin-bottom: 20px; 
+  background-color: white;
+}
+
+li.post:hover  {
+  background-color: pink;
+  
+}
+
+
+.postsingle{
+  background-color: white;
+}
+p {
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+.tags {
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+.post:hover .post-details {
+  color: purple;
+}
+
+.post:hover {
+  background-color: pink;
+}
+
+.delbutton {
+  background-color: #034b8f; 
+  color: #fff;
+  font-size: 18px;
+
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+
+.delbutton:hover {
+  background-color: #FFBA42;
+  color: black;
+}
+
