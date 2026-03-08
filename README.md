@@ -50,13 +50,12 @@ TMU Marketplace is a full-stack web application designed for the Toronto Metropo
 ---
 
 ## Contributors
+Vanessa Entonu
 
 Alexia Ward
 
 Neha Madadi
 
 Nethara Gallage
-
-Vanessa Entonu
 
 Sommie Ezenwa
