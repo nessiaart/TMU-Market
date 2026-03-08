@@ -1,6 +1,6 @@
-# TMU Marketplace
+# TMU Market
 
-TMU Marketplace is a full-stack web application designed for the Toronto Metropolitan University community! Built using modern technologies and industry development practices, the platform enables students to buy, sell, and connect within an admin moderated TMU exclusive app. The application was originally developed by our team in 2024. 
+TMU Market is a full-stack web application designed for the Toronto Metropolitan University community. Built using modern technologies and industry development practices, the platform enables students to buy, sell, and connect within an admin moderated TMU exclusive app. The application was originally developed by our team in 2024. 
 
 ---
 
